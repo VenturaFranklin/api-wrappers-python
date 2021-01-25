@@ -100,8 +100,8 @@ class CreatingAMailingListResponse(object):
         :param error: The error of this CreatingAMailingListResponse.
         :type: str
         """
-        if error is None:
-            raise ValueError("Invalid value for `error`, must not be `None`")
+        #if error is None:
+        #    raise ValueError("Invalid value for `error`, must not be `None`")
 
         self._error = error
 
